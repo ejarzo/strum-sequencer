@@ -9,7 +9,7 @@ body {
 body {
   display: flex;
   min-height: 900px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 main {
