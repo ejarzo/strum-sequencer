@@ -21,6 +21,12 @@ main {
   /* box-shadow: 0 10px 170px -20px rgba(0, 0, 0, 0.9); */
 }
 
+.instructions {
+  font-size: 0.8em;
+  color: #555;
+  text-align: center;
+  padding-top: 20px;
+}
 .info {
   color: #333;
   position: absolute;
