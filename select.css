@@ -1,0 +1,38 @@
+select {
+  border: none;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: #333;
+  appearance: none; /* Remove default arrow */
+  position: relative;
+  background: #aaa;
+  height: 2em;
+  padding-left: 4px;
+  margin-left: 10px;
+}
+
+select:hover {
+  background: #bbb;
+}
+
+#play-button {
+  border: none;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: #333;
+  background: #aaa;
+  /* margin: 0; */
+  height: 2em;
+  appearance: none;
+  position: relative;
+}
+
+#play-button:hover {
+  background: #bbb;
+}
+
+#play-button:active {
+  background: #888;
+}

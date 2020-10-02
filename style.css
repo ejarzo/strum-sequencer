@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  background: #999;
+}
+
+body {
+  display: flex;
+  min-height: 900px;
+  align-items: center;
+}
+
+main {
+  min-width: 650px;
+  min-height: 890px;
+  margin: 0 auto;
+  border-radius: 3px;
+  /* background: #333; */
+  /* box-shadow: 0 10px 170px -20px rgba(0, 0, 0, 0.9); */
+}
+
+.info {
+  color: #333;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 12px;
+  opacity: 0.8;
+  z-index: 3;
+}
+.info:hover {
+  opacity: 1;
+}
+
+.info a {
+  color: #333;
+}
+
+#controls {
+  display: flex;
+  padding-top: 30px;
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 3;
+}
+
+.spacer {
+  flex: 1;
+}
