@@ -1,5 +1,5 @@
 const width = 650;
-const height = 890;
+const height = 900;
 
 const TONICS = [
   "A",
@@ -50,9 +50,6 @@ const pad = new Tone.Sampler({
   urls: { C1: "Synth-EtnicFluteBow3lower.wav" },
   release: 0.9,
   baseUrl: "samples/",
-  onload: () => {
-    // Tone.Transport.start();
-  },
 });
 
 const synth = new Tone.Sampler({
@@ -81,9 +78,9 @@ const reverb2 = new Tone.JCReverb({ roomSize: 0.3, wet: 0.4 });
 
 const compressor = new Tone.Compressor();
 const distortion = new Tone.Distortion(0.01);
+
 synth.chain(chorus, delay, reverb2, new Tone.Gain(0.7), compressor);
 pad.chain(reverb, new Tone.Gain(0.2), compressor);
-
 compressor.chain(Tone.Destination);
 
 let activeTonic = "A";
