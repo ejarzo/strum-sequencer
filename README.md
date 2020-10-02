@@ -1,4 +1,4 @@
-[Strum Sequencer](https://strum-sequencer.netlify.app/)
+# [Strum Sequencer](https://strum-sequencer.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/9386882/94958471-94666280-04bd-11eb-85de-ef549dc2a50e.png)
 
